@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-rigth-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+nav .nav-rigth-section a {
+    margin-right: 20px;
+    color: #000000;
+}
+nav .nav-rigth-section a:hover{
+    text-decoration: underline;
+}
+nav .nav-rigth-section .menu-icon {
+        margin-right: 20px;
+   }
+nav .nav-rigth-section .menu-icon:hover{
+    opacity: .55;
+}
+nav .nav-rigth-section .button-sesion {
+    background-color:#4285f4;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    width: 120px;
+    height: 32px;
+}
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+main .main-logo img{
+    width: 271px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
