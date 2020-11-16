@@ -56,7 +56,7 @@ main {
 main .main-logo {
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 main .main-logo img{
     width: 271px;
@@ -64,19 +64,84 @@ main .main-logo img{
 main .main-input {
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+}
+main .main-input input{
+    width: 450px;
+    height: 44px    ;
+    border: none;
+    outline: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 16px;
 }
 main .main-input-container {
-    width: 525px;
+    width: 540px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-main .main-input input{
-    width: 450px;
-    height: 40px;
-    border: none;
-    outline: none;
+main .main-input-container:hover {
+    box-shadow: 0 1px 5px #20212447;
+    border-color: #dfe1e500;
 }
+main .main-input .microfono-icon {
+    list-style: none;
+    cursor: pointer;
+}
+main .main-input .icon-lupa {
+    opacity: 50%;
+}
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;  
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 0;
+    border-radius: 4px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 11px 4px;
+    color: #3c4043;
+    cursor: pointer;
+}
+main .main-buttons button:hover {
+    border:1px solid #dadce0;
+    box-shadow: 0 1px 1px #c3c3c3;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
+
